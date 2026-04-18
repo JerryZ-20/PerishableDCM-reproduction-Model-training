@@ -14,6 +14,8 @@
 
 # PerishableDCM
 
+(Below are the original README from the parent paper)
+
 This library simulates the inventory control problem of perishable products by means of Discrete Choice Methods (DCM).
 
 Specifically, **PerishableDCM** is a simulation environment for the management of perishable items with lead times and a fixed shelf life. It deals with multiple items, where orders for fresh products are issued each day. The product characteristics are:
