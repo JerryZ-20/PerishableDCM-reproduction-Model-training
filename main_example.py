@@ -27,7 +27,7 @@ scenarioMgr = ScenarioGeneratorRandom(store_setting)
 scenarioMgr.reset() #called just after to set the seed 
 #Related time horizon of the simulation
 transientWeeks = 0
-nWeeks = 600 #number of weeks emplyoed
+nWeeks = 200 #number of weeks emplyoed
 timeHorizon = 7*nWeeks #time horizon in days
 #Invetory managers, one per product
 invManagers = {}
