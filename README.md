@@ -1,3 +1,20 @@
+# How to Run the Project
+1. Go to GitHub, download zip.
+2. Unzip the file.
+3. Open terminal.
+4. Navigate to the project folder. You can drag the folder into the terminal to get the correct path: cd <folder_path>
+5. Type or paste: python3 -m venv venv
+6. Type or paste: source venv/bin/activate
+7. Type or paste: pip install --upgrade pip
+8. Type or paste(This will install all the requirements: pip install -r requirements.txt
+9. Type or paste: python3 main_example.py
+10. Once done the last step, there will be total of 1400 days of simulations, it might take 3 to 5 minutes to complete the training. Once saved, there should be a file “simulation_dataset.csv” added to the folder.
+11. Type or paste: python3 train_policy_models.py
+12. The code will start the model training, the training process may take 10 to 12 minutes. Once trained, there should be “feature_importance_A”, “feature_importance_B”, “training_table_A”, “training_table_B” in the “trained_models” folder to show the results.
+
+
+
+
 # PerishableDCM
 
 This library simulates the inventory control problem of perishable products by means of Discrete Choice Methods (DCM).
